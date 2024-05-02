@@ -1,0 +1,194 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    text-decoration: none;
+    list-style: none ;
+}
+
+body {
+    font-family:'raleway';
+}
+
+header {
+ height: 100vh;
+ width: 100vw;
+ background-image: url(file:///C:/Users/ASUS/Desktop/ECF/IMAGES/pexels-wb2008-2541239.jpg);
+ background-size: cover;
+}
+.navbar{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+.lien li {
+    color: aliceblue;
+}
+.navbar a  {
+    color: aliceblue;
+}
+
+.navbar .logo {
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar .nav_link ul {
+    display: flex;
+}
+.navbar .nav_link ul li  {
+    margin: 0 25px;
+}
+
+.navbar .nav_link .lien .active a  {
+    color: rgb(234, 209, 14);
+    font-weight: 800;
+}
+/* permet d'aficher et de masquer le menu */
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    width: 45px;
+}
+
+.img-logo{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+@media screen and (max-width: 900px){
+    .navbar{
+        padding: 0;
+    }
+    .navbar .logo{
+        position: flex;
+        top: 20px;
+        left: 10px;
+
+    }
+    .nav_link ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav_link ul li  {
+        margin: 15px 0;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    
+    .navbar .menu-hamburger{
+        display: block;
+    }
+    .nav_link{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255, 0.299);
+        backdrop-filter: blur(7px); /*permet de rendre flou l'arriere plan*/
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: 0.5s ease; /*permet de mettre une transition animée de 0.5secondes*/
+    }
+
+    .nav_link.mobile-menu {
+        margin-left:0;
+    
+    }
+    .nav_link ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav_link ul li  {
+        margin: 15px 0;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  
+}
+.photo_animal{
+    display: flex;
+}
+.elephant_pic{
+    width: 550px;
+    height: 350px;
+    padding: 8px;
+    justify-content: right;
+}
+.about{
+    justify-content: center;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+.avis{
+    display: flex;
+    width: 50px;
+    display: flexbox;
+    flex-direction: row;
+    padding-left: 500px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.avis_1{
+    width: 85%;
+    padding: auto;
+    border-radius: 45px;
+
+}
+.avis_2{
+    width: 80%;
+    border-radius: 45px;
+    padding: auto;
+}
+.avis_3{
+    width: 80%;
+    border-radius: 45px;
+    padding: auto;
+
+}
+
+.avis p{
+    text-align:left;
+}
+.contenu-footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: rgb(246, 246, 242);
+  
+}
+.bloc{
+    padding-left: 100px;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(16, 50, 40);
+    justify-content:center;
+    color: aliceblue;
+    
+}
