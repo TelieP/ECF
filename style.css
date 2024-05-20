@@ -16,13 +16,13 @@ form{
 .formulaire{
     display: inline-block;
     padding-left: 50px;
-    background-color: #7c2376;
+    background-color: #a19ea1;
     border-radius: 8px;
     width: 49%;
    align-items: center;
 }
 .container-fluid{
- background-color: #e39494;
+ background-color: #176152;
 }
 
 .histoire{
@@ -41,4 +41,11 @@ form{
 
 .histoire2 , p{
     padding: 28px;
+}
+.box1_animaux{
+    display: flex;
+}
+.iframe1{
+    padding-left: 35%;
+    padding-top: 2%;
 }
