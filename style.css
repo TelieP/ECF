@@ -3,3 +3,42 @@
     color: aliceblue;
    justify-content: space-between;
 }
+
+.form-control{
+    width: 500px;
+}
+.mb-3{
+    padding-left: 20px;
+}
+form{
+    padding: 30px;
+}
+.formulaire{
+    display: inline-block;
+    padding-left: 50px;
+    background-color: #7c2376;
+    border-radius: 8px;
+    width: 49%;
+   align-items: center;
+}
+.container-fluid{
+ background-color: #e39494;
+}
+
+.histoire{
+    display: inline-flex;
+    padding-left: 40px;
+    padding-right: 0px;
+    text-align: justify;
+}
+
+.histoire2{
+    display: inline-flex;
+    padding-left: 40px;
+    padding-top: 28px;
+    text-align: justify;
+}
+
+.histoire2 , p{
+    padding: 28px;
+}
